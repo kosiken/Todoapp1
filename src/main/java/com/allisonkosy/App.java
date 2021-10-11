@@ -58,7 +58,7 @@ public class App
     public static int hasCurrentTodo(Database server, Scanner in) {
 //        System.out.println("Current todo -> " + currentTodo.getTitle());
 
-        System.out.println("Input 1 to delete current todo\nInput 2 to update current todo\n" +
+        System.out.print("Input 1 to delete current todo\nInput 2 to update current todo\n" +
                 "Input 3 to view current todo (" + currentTodo.getTitle()+ ")\n"+
 
                 "Input 4 to go back to previous menu\n" +
@@ -117,7 +117,7 @@ public class App
                 "Input 6 to update password\n" +
                 "Input 7 to logout\n" +
 
-                "Input >=8 to exit");
+                "Input >=8 to exit\nchoice: ");
         int choice = 0;
         int ans = 1;
 
